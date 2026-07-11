@@ -3,8 +3,8 @@
   <metadata>
     <id>stirling-pdf</id>
     <version>2.14.2</version>
-    <packageSourceUrl>https://github.com/TODO-your-handle/stirling-pdf-choco</packageSourceUrl>
-    <owners>TODO-your-handle</owners>
+    <packageSourceUrl>https://github.com/GarciaPL/stirling-pdf-choco</packageSourceUrl>
+    <owners>GarciaPL</owners>
     <title>Stirling PDF</title>
     <authors>Stirling-Tools</authors>
     <projectUrl>https://www.stirlingpdf.com/</projectUrl>
