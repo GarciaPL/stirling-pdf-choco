@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>stirling-pdf</id>
+    <version>2.14.2</version>
+    <packageSourceUrl>https://github.com/TODO-your-handle/stirling-pdf-choco</packageSourceUrl>
+    <owners>TODO-your-handle</owners>
+    <title>Stirling PDF</title>
+    <authors>Stirling-Tools</authors>
+    <projectUrl>https://www.stirlingpdf.com/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/frontend/public/favicon.svg</iconUrl>
+    <copyright>Stirling-Tools</copyright>
+    <licenseUrl>https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Stirling-Tools/Stirling-PDF</projectSourceUrl>
+    <docsUrl>https://docs.stirlingpdf.com/</docsUrl>
+    <bugTrackerUrl>https://github.com/Stirling-Tools/Stirling-PDF/issues</bugTrackerUrl>
+    <tags>pdf pdf-editor pdf-tools stirling-pdf document</tags>
+    <summary>Locally hosted web application for viewing and manipulating PDFs</summary>
+    <description>Stirling PDF is a robust, locally hosted, web-based PDF manipulation tool offering a wide range of operations — merge, split, convert, compress, OCR, watermark, and more — all running on your own machine.
+
+This package installs the Windows desktop build of Stirling PDF.
+
+Project: https://github.com/Stirling-Tools/Stirling-PDF</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

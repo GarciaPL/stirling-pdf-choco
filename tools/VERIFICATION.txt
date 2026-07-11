@@ -1,0 +1,26 @@
+VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Package can be verified like this:
+
+1. The installer is downloaded directly from Stirling-PDF's official file host:
+   https://files.stirlingpdf.com/win-installer.exe
+
+2. This is the same URL Stirling-PDF links from its own Windows install docs:
+   https://docs.stirlingpdf.com/
+
+3. Compare checksum:
+   Get-FileHash .\win-installer.exe -Algorithm SHA256
+
+   checksum: 7bcf4073213bb5c6d30d29317383a86aa3282c9e3d733ad876c375bc04d5498e
+   checksum type: sha256
+
+4. Despite the .exe extension, `file win-installer.exe` identifies it as a
+   raw MSI database (Windows Installer XML Toolset / WiX). Package installs
+   it via msiexec (fileType 'msi' in chocolateyInstall.ps1), silent flag
+   /qn /norestart.
+
+File 'LICENSE.txt' is obtained from:
+   https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE
